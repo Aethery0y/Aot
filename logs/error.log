@@ -1,0 +1,2451 @@
+[2025-07-14 15:09:31] ERROR: Failed to start bot: An invalid token was provided.
+Error [TokenInvalid]: An invalid token was provided.
+    at Client.login (C:\DevFolder\Discord\AoT\node_modules\discord.js\src\client\Client.js:217:52)
+    at startBot (C:\DevFolder\Discord\AoT\index.js:102:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-14 11:52:57] ERROR: Error executing /rud: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:85:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:17:13)
+[2025-07-14 11:52:57] ERROR: Uncaught Exception: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:102:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:17:13)
+[2025-07-14 12:14:07] ERROR: CRITICAL: Admin aethery0y (1354098432930873457) WIPED ENTIRE DATABASE!
+[2025-07-14 12:30:16] ERROR: CRITICAL: Admin aethery0y (1354098432930873457) WIPED ENTIRE DATABASE!
+[2025-07-14 12:38:36] ERROR: CRITICAL: Admin aethery0y (1354098432930873457) WIPED ENTIRE DATABASE!
+[2025-07-14 19:17:41] ERROR: Error handling persistent pagination: getRankEmoji is not defined
+ReferenceError: getRankEmoji is not defined
+    at /home/runner/workspace/utils/persistentPagination.js:316:23
+    at Array.map (<anonymous>)
+    at createStoreEmbed (/home/runner/workspace/utils/persistentPagination.js:315:30)
+    at embedCreator (/home/runner/workspace/utils/persistentPagination.js:227:65)
+    at handlePersistentPaginationInteraction (/home/runner/workspace/utils/persistentPagination.js:157:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:151:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:27:13)
+[2025-07-14 19:17:44] ERROR: Error handling persistent pagination: getRankEmoji is not defined
+ReferenceError: getRankEmoji is not defined
+    at /home/runner/workspace/utils/persistentPagination.js:316:23
+    at Array.map (<anonymous>)
+    at createStoreEmbed (/home/runner/workspace/utils/persistentPagination.js:315:30)
+    at embedCreator (/home/runner/workspace/utils/persistentPagination.js:227:65)
+    at handlePersistentPaginationInteraction (/home/runner/workspace/utils/persistentPagination.js:157:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:151:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:27:13)
+[2025-07-14 19:17:47] ERROR: Error handling persistent pagination: getRankEmoji is not defined
+ReferenceError: getRankEmoji is not defined
+    at /home/runner/workspace/utils/persistentPagination.js:316:23
+    at Array.map (<anonymous>)
+    at createStoreEmbed (/home/runner/workspace/utils/persistentPagination.js:315:30)
+    at embedCreator (/home/runner/workspace/utils/persistentPagination.js:227:65)
+    at handlePersistentPaginationInteraction (/home/runner/workspace/utils/persistentPagination.js:157:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:151:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:27:13)
+[2025-07-14 19:17:51] ERROR: Error handling persistent pagination: getRankEmoji is not defined
+ReferenceError: getRankEmoji is not defined
+    at /home/runner/workspace/utils/persistentPagination.js:316:23
+    at Array.map (<anonymous>)
+    at createStoreEmbed (/home/runner/workspace/utils/persistentPagination.js:315:30)
+    at embedCreator (/home/runner/workspace/utils/persistentPagination.js:227:65)
+    at handlePersistentPaginationInteraction (/home/runner/workspace/utils/persistentPagination.js:157:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:151:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:27:13)
+[2025-07-14 19:18:00] ERROR: Error handling persistent pagination: getRankEmoji is not defined
+ReferenceError: getRankEmoji is not defined
+    at /home/runner/workspace/utils/persistentPagination.js:316:23
+    at Array.map (<anonymous>)
+    at createStoreEmbed (/home/runner/workspace/utils/persistentPagination.js:315:30)
+    at embedCreator (/home/runner/workspace/utils/persistentPagination.js:227:65)
+    at handlePersistentPaginationInteraction (/home/runner/workspace/utils/persistentPagination.js:157:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:151:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:27:13)
+[2025-07-14 19:19:15] ERROR: Error in arena command: Unable to convert "#gold" to a number.
+TypeError [ColorConvert]: Unable to convert "#gold" to a number.
+    at resolveColor (/home/runner/workspace/node_modules/discord.js/src/util/Util.js:299:11)
+    at EmbedBuilder.setColor (/home/runner/workspace/node_modules/discord.js/src/structures/EmbedBuilder.js:23:36)
+    at createArenaEmbed (/home/runner/workspace/commands/prefix/arena.js:60:10)
+    at /home/runner/workspace/commands/prefix/arena.js:36:52
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:18:26)
+    at Object.execute (/home/runner/workspace/commands/prefix/arena.js:33:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:65:13)
+[2025-07-15 02:38:05] ERROR: Failed to load prefix command store.js: Identifier 'getRankEmoji' has already been declared
+/home/runner/workspace/commands/prefix/store.js:314
+function getRankEmoji(rank) {
+^
+
+SyntaxError: Identifier 'getRankEmoji' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:69:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 02:38:24] ERROR: Failed to load prefix command store.js: Identifier 'getRankEmoji' has already been declared
+/home/runner/workspace/commands/prefix/store.js:314
+function getRankEmoji(rank) {
+^
+
+SyntaxError: Identifier 'getRankEmoji' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:69:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 05:17:43] ERROR: Error handling select menu interaction: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async StringSelectMenuInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:17:44] ERROR: Uncaught Exception: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async StringSelectMenuInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:256:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:19:53] ERROR: Error in fight command: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at generateRandomEncounter (/home/runner/workspace/utils/combat.js:164:66)
+    at Object.execute (/home/runner/workspace/commands/prefix/fight.js:42:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:65:13)
+[2025-07-15 05:20:38] ERROR: Error handling select menu interaction: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async StringSelectMenuInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:20:38] ERROR: Uncaught Exception: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async StringSelectMenuInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:256:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:21:21] ERROR: Error in fight command: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at generateRandomEncounter (/home/runner/workspace/utils/combat.js:164:66)
+    at Object.execute (/home/runner/workspace/commands/prefix/fight.js:42:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:65:13)
+[2025-07-15 05:21:50] ERROR: Error in fight command: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at generateRandomEncounter (/home/runner/workspace/utils/combat.js:164:66)
+    at Object.execute (/home/runner/workspace/commands/prefix/fight.js:42:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:65:13)
+[2025-07-15 05:22:13] ERROR: Error handling store select menu: Cannot read properties of undefined (reading 'toLocaleString')
+TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:12:86)
+    at /home/runner/workspace/events/interactionCreate.js:813:49
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:22:19] ERROR: Error handling store select menu: Cannot read properties of undefined (reading 'toLocaleString')
+TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:12:86)
+    at /home/runner/workspace/events/interactionCreate.js:813:49
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:22:23] ERROR: Error handling store select menu: Cannot read properties of undefined (reading 'toLocaleString')
+TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:12:86)
+    at /home/runner/workspace/events/interactionCreate.js:813:49
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:23:16] ERROR: Error handling store select menu: powers.forEach is not a function
+TypeError: powers.forEach is not a function
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:20:12)
+    at /home/runner/workspace/events/interactionCreate.js:813:49
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:23:28] ERROR: Error handling store select menu: powers.forEach is not a function
+TypeError: powers.forEach is not a function
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:20:12)
+    at /home/runner/workspace/events/interactionCreate.js:813:49
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:31:42] ERROR: Error handling store select menu: Received one or more errors
+Error: Received one or more errors
+    at _ArrayValidator.handle (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at EmbedBuilder.addFields (/home/runner/workspace/node_modules/@discordjs/builders/dist/index.js:235:31)
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:38:11)
+    at /home/runner/workspace/events/interactionCreate.js:813:43
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:32:26] ERROR: Error handling store select menu: Received one or more errors
+Error: Received one or more errors
+    at _ArrayValidator.handle (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at EmbedBuilder.addFields (/home/runner/workspace/node_modules/@discordjs/builders/dist/index.js:235:31)
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:38:11)
+    at /home/runner/workspace/events/interactionCreate.js:813:43
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:32:57] ERROR: Error handling store select menu: Received one or more errors
+Error: Received one or more errors
+    at _ArrayValidator.handle (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at EmbedBuilder.addFields (/home/runner/workspace/node_modules/@discordjs/builders/dist/index.js:235:31)
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:38:11)
+    at /home/runner/workspace/events/interactionCreate.js:813:43
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:34:02] ERROR: Error handling store select menu: Received one or more errors
+Error: Received one or more errors
+    at _ArrayValidator.handle (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at EmbedBuilder.addFields (/home/runner/workspace/node_modules/@discordjs/builders/dist/index.js:235:31)
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:38:11)
+    at /home/runner/workspace/events/interactionCreate.js:813:43
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:35:04] ERROR: Error handling store select menu: Received one or more errors
+Error: Received one or more errors
+    at _ArrayValidator.handle (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at EmbedBuilder.addFields (/home/runner/workspace/node_modules/@discordjs/builders/dist/index.js:235:31)
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:38:11)
+    at /home/runner/workspace/events/interactionCreate.js:813:43
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:38:54] ERROR: Error handling store select menu: Received one or more errors
+Error: Received one or more errors
+    at _ArrayValidator.handle (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at EmbedBuilder.addFields (/home/runner/workspace/node_modules/@discordjs/builders/dist/index.js:235:31)
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:38:11)
+    at /home/runner/workspace/events/interactionCreate.js:813:43
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 05:51:44] ERROR: Error handling store select menu: Received one or more errors
+Error: Received one or more errors
+    at _ArrayValidator.handle (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/runner/workspace/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at EmbedBuilder.addFields (/home/runner/workspace/node_modules/@discordjs/builders/dist/index.js:235:31)
+    at createStoreRankEmbed (/home/runner/workspace/utils/storeEmbeds.js:45:11)
+    at /home/runner/workspace/events/interactionCreate.js:813:43
+    at createPersistentPagination (/home/runner/workspace/utils/persistentPagination.js:19:26)
+    at handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:810:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:240:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:32:13)
+[2025-07-15 07:02:42] ERROR: Failed to load prefix command draw.js: Identifier 'getRankColor' has already been declared
+/home/runner/workspace/commands/prefix/draw.js:79
+function getRankColor(rank) {
+^
+
+SyntaxError: Identifier 'getRankColor' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:69:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 07:03:55] ERROR: Failed to load slash command aevolve.js: Identifier 'getRankEmoji' has already been declared
+/home/runner/workspace/commands/aevolve.js:84
+function getRankEmoji(rank) {
+^
+
+SyntaxError: Identifier 'getRankEmoji' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:49:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 07:04:00] ERROR: Error registering slash commands: Identifier 'getRankEmoji' has already been declared
+/home/runner/workspace/commands/aevolve.js:84
+function getRankEmoji(rank) {
+^
+
+SyntaxError: Identifier 'getRankEmoji' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at registerSlashCommands (/home/runner/workspace/events/ready.js:38:29)
+    at Object.execute (/home/runner/workspace/events/ready.js:20:15)
+    at Client.<anonymous> (/home/runner/workspace/index.js:32:56)
+[2025-07-15 07:46:39] ERROR: Failed to load event interactionCreate.js: Unexpected token '}'
+/home/runner/workspace/events/interactionCreate.js:594
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:29:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 07:46:47] ERROR: Failed to load event interactionCreate.js: Unexpected token '}'
+/home/runner/workspace/events/interactionCreate.js:594
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:29:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 08:47:32] ERROR: Error in daily command: Unknown column 'experience' in 'SET'
+Error: Unknown column 'experience' in 'SET'
+    at PromisePool.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at updateUserStats (/home/runner/workspace/utils/database.js:350:16)
+    at Object.execute (/home/runner/workspace/commands/prefix/daily.js:37:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:77:13)
+[2025-07-15 08:51:15] ERROR: Error in daily command: Cannot read properties of undefined (reading 'toLocaleString')
+TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+    at Object.execute (/home/runner/workspace/commands/prefix/daily.js:59:73)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:77:13)
+[2025-07-15 08:54:05] ERROR: Error in daily command: Cannot read properties of undefined (reading 'toLocaleString')
+TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+    at Object.execute (/home/runner/workspace/commands/prefix/daily.js:59:73)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:77:13)
+[2025-07-15 09:36:22] ERROR: CRITICAL: Admin aethery0y (1354098432930873457) WIPED ENTIRE DATABASE!
+[2025-07-15 09:45:19] ERROR: Error handling terms acceptance: ModalBuilder is not defined
+ReferenceError: ModalBuilder is not defined
+    at handleTermsAcceptance (/home/runner/workspace/events/interactionCreate.js:629:23)
+    at handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:190:19)
+    at Object.execute (/home/runner/workspace/events/interactionCreate.js:27:19)
+    at Client.<anonymous> (/home/runner/workspace/index.js:34:54)
+    at Client.emit (node:events:518:28)
+    at InteractionCreateAction.handle (/home/runner/workspace/node_modules/discord.js/src/client/actions/InteractionCreate.js:101:12)
+    at module.exports [as INTERACTION_CREATE] (/home/runner/workspace/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:351:31)
+    at WebSocketManager.<anonymous> (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:235:12)
+    at WebSocketManager.emit (/home/runner/workspace/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+[2025-07-15 09:54:01] ERROR: Error sending admin notification: Cannot send messages to this user
+DiscordAPIError[50007]: Cannot send messages to this user
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1149:23)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:980:14)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async DMChannel.send (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async sendAdminNotification (/home/runner/workspace/events/interactionCreate.js:1287:9)
+    at async handleReportModal (/home/runner/workspace/events/interactionCreate.js:1162:9)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:698:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:37:13)
+[2025-07-15 10:02:00] ERROR: Could not send DM to admin, trying reports channel instead: Cannot send messages to this user
+DiscordAPIError[50007]: Cannot send messages to this user
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1149:23)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:980:14)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async DMChannel.send (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async sendAdminNotification (/home/runner/workspace/events/interactionCreate.js:1290:13)
+    at async handleReportModal (/home/runner/workspace/events/interactionCreate.js:1162:9)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:698:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:37:13)
+[2025-07-15 11:29:06] ERROR: Error in registration modal: Unknown column 'gacha_draws' in 'SET'
+Error: Unknown column 'gacha_draws' in 'SET'
+    at PromisePool.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at updateUserGachaDraws (/home/runner/workspace/utils/database.js:870:16)
+    at handleRegistrationModal (/home/runner/workspace/events/interactionCreate.js:795:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:696:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:37:13)
+[2025-07-15 11:40:28] ERROR: Error in registration modal: Unknown column 'gacha_draws' in 'SET'
+Error: Unknown column 'gacha_draws' in 'SET'
+    at PromisePool.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at updateUserGachaDraws (/home/runner/workspace/utils/database.js:870:16)
+    at handleRegistrationModal (/home/runner/workspace/events/interactionCreate.js:795:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:696:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:37:13)
+[2025-07-15 11:42:37] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:42:51] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:45:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:46:01] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:46:09] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:46:14] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:46:19] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:46:24] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:50:04] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 11:55:29] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:00:59] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:06:29] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:12:00] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:12:30] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:17:15] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:17:29] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:17:36] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:23:00] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:26:26] ERROR: Member not found in guild for user activity update: 791321300765114370
+[2025-07-15 12:28:00] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:34:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:39:24] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:44:55] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:50:25] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 12:55:55] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 13:01:25] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 13:03:53] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 13:03:56] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 13:04:04] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 13:06:55] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 13:09:25] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 13:12:25] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 15:46:01] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:52:07] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:54:37] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:56:03] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:56:03] ERROR: unhandledRejection: getUserPowerById is not a function
+TypeError: getUserPowerById is not a function
+    at RichPresenceManager.setIdlePresence (/home/runner/workspace/utils/richPresence.js:301:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (/home/runner/workspace/events/messageCreate.js:103:21)
+TypeError: getUserPowerById is not a function
+    at RichPresenceManager.setIdlePresence (/home/runner/workspace/utils/richPresence.js:301:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (/home/runner/workspace/events/messageCreate.js:103:21)
+[2025-07-15 16:56:03] ERROR: Unhandled Rejection at:
+[2025-07-15 16:56:23] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:56:32] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:56:39] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:56:46] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:56:53] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:57:22] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:57:34] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:57:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 16:57:53] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:05:41] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:07:37] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:12:41] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:13:03] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:13:24] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:14:32] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:14:53] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:15:33] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:15:55] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:16:18] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:16:22] ERROR: Error in PvP battle: Duplicate entry '1' for key 'unique_rank'
+Error: Duplicate entry '1' for key 'unique_rank'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at updateArenaRanking (/home/runner/workspace/utils/database.js:650:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handlePvPBattle (/home/runner/workspace/commands/prefix/battle.js:190:13)
+    at async Object.execute (/home/runner/workspace/commands/prefix/battle.js:42:20)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-15 17:16:22] ERROR: Error in battle command: Duplicate entry '1' for key 'unique_rank'
+Error: Duplicate entry '1' for key 'unique_rank'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at updateArenaRanking (/home/runner/workspace/utils/database.js:650:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handlePvPBattle (/home/runner/workspace/commands/prefix/battle.js:190:13)
+    at async Object.execute (/home/runner/workspace/commands/prefix/battle.js:42:20)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-15 17:16:54] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:16:54] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:17:02] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:17:07] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:17:19] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:17:26] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:17:33] ERROR: Member not found in guild for user activity update: 644483479819517983
+[2025-07-15 17:21:49] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:22:31] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:23:05] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:23:16] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:23:25] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:28:08] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:28:26] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:29:41] ERROR: Failed to load prefix command afight.js: Unexpected token ';'
+/home/runner/workspace/utils/combat.js:253
+    ];
+     ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/afight.js:3:99)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 17:29:41] ERROR: Failed to load prefix command battle.js: Unexpected token ';'
+/home/runner/workspace/utils/combat.js:253
+    ];
+     ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/battle.js:3:72)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 17:29:41] ERROR: Failed to load prefix command fight.js: Unexpected token ';'
+/home/runner/workspace/utils/combat.js:253
+    ];
+     ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/fight.js:3:78)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 17:31:52] ERROR: Failed to load prefix command afight.js: Unexpected token '}'
+/home/runner/workspace/utils/combat.js:268
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/afight.js:3:99)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 17:31:52] ERROR: Failed to load prefix command battle.js: Unexpected token '}'
+/home/runner/workspace/utils/combat.js:268
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/battle.js:3:72)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 17:31:52] ERROR: Failed to load prefix command fight.js: Unexpected token '}'
+/home/runner/workspace/utils/combat.js:268
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/fight.js:3:78)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 17:32:14] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:50:15] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 17:53:32] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:01:40] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:02:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:07:41] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:13:11] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:24:00] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:24:15] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:24:30] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:27:53] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:28:04] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:28:25] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:46:48] ERROR: Failed to load event interactionCreate.js: Unexpected identifier 's'
+/home/runner/workspace/events/interactionCreate.js:2053
+                    content: "❌ Redeem channel not found. Here\\"s your code:",
+                                                                 ^
+
+SyntaxError: Unexpected identifier 's'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 18:46:52] ERROR: Failed to load event interactionCreate.js: Unexpected identifier 's'
+/home/runner/workspace/events/interactionCreate.js:2053
+                    content: "❌ Redeem channel not found. Here\\"s your code:",
+                                                                 ^
+
+SyntaxError: Unexpected identifier 's'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-15 18:53:28] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 18:58:41] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:04:11] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:09:41] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:15:11] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:20:42] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:26:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:31:42] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:37:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:42:42] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:48:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:53:42] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 19:59:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:04:42] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:10:12] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:15:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:21:13] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:26:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:32:13] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:37:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:43:13] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:48:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:54:13] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 20:59:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:05:13] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:10:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:16:14] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:21:44] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:27:14] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:32:44] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:38:14] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:43:44] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:49:15] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 21:54:45] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 22:00:15] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 22:05:45] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 22:11:15] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 22:16:46] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 22:22:16] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 22:27:46] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-15 22:33:16] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 12:59:43] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 12:59:49] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 12:59:50] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:00:38] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:00:38] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:00:46] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:00:53] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:00:59] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:05] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:13] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:22] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:40] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:45] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:46] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:50] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:56] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:01:59] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:01] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:05] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:05] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:10] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:16] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:21] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:29] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:02:31] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:05:03] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:10:29] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:15:59] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:21:29] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:53:57] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 13:58:31] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 14:03:36] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 14:09:06] ERROR: Member not found in guild for user activity update: 1354098432930873457
+[2025-07-16 10:19:13] ERROR: Failed to load event interactionCreate.js: Unexpected token ':'
+/home/runner/workspace/events/interactionCreate.js:1700
+                details: `Pulled ${drawResult.power.rank} power`,
+                       ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:19:13] ERROR: Failed to load event messageCreate.js: Missing catch or finally after try
+/home/runner/workspace/events/messageCreate.js:103
+            }
+            ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:19:13] ERROR: Failed to load slash command otevolve.js: Unexpected token ':'
+/home/runner/workspace/commands/otevolve.js:69
+                    sacrificePower: 'Pending selection'
+                                  ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:52:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:19:13] ERROR: Failed to load prefix command arena.js: Missing catch or finally after try
+/home/runner/workspace/commands/prefix/arena.js:15
+                });
+                ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:72:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:19:13] ERROR: Failed to load prefix command battle.js: Unexpected token ':'
+/home/runner/workspace/commands/prefix/battle.js:38
+                    equippedPower: equippedPower
+                                 ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:72:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:19:13] ERROR: Failed to load prefix command buy.js: Unexpected token ')'
+/home/runner/workspace/commands/prefix/buy.js:132
+        });
+         ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:72:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:19:13] ERROR: Failed to load prefix command store.js: Missing catch or finally after try
+/home/runner/workspace/commands/prefix/store.js:20
+                });
+                ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:72:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:19:19] ERROR: Error registering slash commands: Unexpected token ':'
+/home/runner/workspace/commands/otevolve.js:69
+                    sacrificePower: 'Pending selection'
+                                  ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at registerSlashCommands (/home/runner/workspace/events/ready.js:38:29)
+    at Object.execute (/home/runner/workspace/events/ready.js:20:15)
+    at Client.<anonymous> (/home/runner/workspace/index.js:35:56)
+[2025-07-16 10:20:22] ERROR: Failed to load event interactionCreate.js: Unexpected token ':'
+/home/runner/workspace/events/interactionCreate.js:1700
+                details: `Pulled ${drawResult.power.rank} power`,
+                       ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:20:22] ERROR: Failed to load event messageCreate.js: Missing catch or finally after try
+/home/runner/workspace/events/messageCreate.js:103
+            }
+            ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:20:22] ERROR: Failed to load prefix command arena.js: Missing catch or finally after try
+/home/runner/workspace/commands/prefix/arena.js:15
+                });
+                ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:72:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:20:22] ERROR: Failed to load prefix command battle.js: Unexpected token ':'
+/home/runner/workspace/commands/prefix/battle.js:38
+                    equippedPower: equippedPower
+                                 ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:72:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:23:36] ERROR: Failed to load event interactionCreate.js: Unexpected token ':'
+/home/runner/workspace/events/interactionCreate.js:1700
+                details: `Pulled ${drawResult.power.rank} power`,
+                       ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:23:36] ERROR: Failed to load event messageCreate.js: Missing catch or finally after try
+/home/runner/workspace/events/messageCreate.js:103
+            }
+            ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:38:38] ERROR: Failed to load slash command redeem.js: Unexpected token '}'
+/home/runner/workspace/commands/redeem.js:113
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:52:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 10:38:43] ERROR: Error registering slash commands: Unexpected token '}'
+/home/runner/workspace/commands/redeem.js:113
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at registerSlashCommands (/home/runner/workspace/events/ready.js:38:29)
+    at Object.execute (/home/runner/workspace/events/ready.js:20:15)
+    at Client.<anonymous> (/home/runner/workspace/index.js:35:56)
+[2025-07-16 11:04:18] ERROR: Atomic operation failed after 3 attempts
+Error: Power not found or not owned by user
+    at /home/runner/workspace/utils/atomicOperations.js:399:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AtomicOperations.executeTransaction (/home/runner/workspace/utils/atomicOperations.js:70:28)
+    at async AtomicOperations.executeWithLock (/home/runner/workspace/utils/atomicOperations.js:34:32)
+    at async Object.execute (/home/runner/workspace/commands/otequip.js:95:13)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:129:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:23:13)
+[2025-07-16 11:04:18] ERROR: Error in aequip command: Power not found or not owned by user
+Error: Power not found or not owned by user
+    at /home/runner/workspace/utils/atomicOperations.js:399:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AtomicOperations.executeTransaction (/home/runner/workspace/utils/atomicOperations.js:70:28)
+    at async AtomicOperations.executeWithLock (/home/runner/workspace/utils/atomicOperations.js:34:32)
+    at async Object.execute (/home/runner/workspace/commands/otequip.js:95:13)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:129:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:23:13)
+[2025-07-16 11:04:18] ERROR: Error executing /otequip: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async Object.execute (/home/runner/workspace/commands/otequip.js:121:13)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:129:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:23:13)
+[2025-07-16 11:04:18] ERROR: Uncaught Exception: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:152:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:23:13)
+[2025-07-16 17:42:49] ERROR: Error in PvP battle: Cannot read properties of undefined (reading 'combat_power')
+TypeError: Cannot read properties of undefined (reading 'combat_power')
+    at handlePvPBattle (/home/runner/workspace/commands/prefix/battle.js:167:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/commands/prefix/battle.js:35:20)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-16 17:42:49] ERROR: Error in battle command: Cannot read properties of undefined (reading 'combat_power')
+TypeError: Cannot read properties of undefined (reading 'combat_power')
+    at handlePvPBattle (/home/runner/workspace/commands/prefix/battle.js:167:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/commands/prefix/battle.js:35:20)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-16 17:46:57] ERROR: Error in PvP battle: Cannot read properties of undefined (reading 'combat_power')
+TypeError: Cannot read properties of undefined (reading 'combat_power')
+    at handlePvPBattle (/home/runner/workspace/commands/prefix/battle.js:167:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/commands/prefix/battle.js:35:20)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-16 17:46:57] ERROR: Error in battle command: Cannot read properties of undefined (reading 'combat_power')
+TypeError: Cannot read properties of undefined (reading 'combat_power')
+    at handlePvPBattle (/home/runner/workspace/commands/prefix/battle.js:167:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/commands/prefix/battle.js:35:20)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-16 18:18:20] ERROR: Error in aequip autocomplete: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async Object.autocomplete (/home/runner/workspace/commands/otequip.js:35:13)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:63:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:20] ERROR: Error executing autocomplete for otequip: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async Object.autocomplete (/home/runner/workspace/commands/otequip.js:38:13)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:63:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:20] ERROR: Error responding to autocomplete: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:67:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:21] ERROR: Error in aequip autocomplete: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async Object.autocomplete (/home/runner/workspace/commands/otequip.js:35:13)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:63:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:21] ERROR: Error executing autocomplete for otequip: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async Object.autocomplete (/home/runner/workspace/commands/otequip.js:38:13)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:63:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:21] ERROR: Error responding to autocomplete: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:67:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:22] ERROR: Error in aequip autocomplete: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async Object.autocomplete (/home/runner/workspace/commands/otequip.js:35:13)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:63:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:22] ERROR: Error executing autocomplete for otequip: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async Object.autocomplete (/home/runner/workspace/commands/otequip.js:38:13)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:63:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:18:22] ERROR: Error responding to autocomplete: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async AutocompleteInteraction.respond (/home/runner/workspace/node_modules/discord.js/src/structures/AutocompleteInteraction.js:86:5)
+    at async handleAutocomplete (/home/runner/workspace/events/interactionCreate.js:67:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:24:13)
+[2025-07-16 18:42:34] ERROR: Error processing eat challenge: Challenger has no equipped power
+Error: Challenger has no equipped power
+    at handleEatChallenge (/home/runner/workspace/commands/prefix/eat.js:264:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:180:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:34:13)
+[2025-07-16 18:55:20] ERROR: Failed to load prefix command gacha.js: Unexpected token '}'
+/home/runner/workspace/commands/prefix/gacha.js:48
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:72:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-16 19:03:54] ERROR: Database error
+[2025-07-16 19:03:54] ERROR: Error in give command: Database temporarily unavailable. Please try again later.
+Error: Database temporarily unavailable. Please try again later.
+    at ErrorHandler.handleDatabaseError (/home/runner/workspace/utils/errorHandler.js:111:15)
+    at getUserByDiscordId (/home/runner/workspace/utils/database.js:972:38)
+    at Object.execute (/home/runner/workspace/commands/prefix/give.js:47:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-16 19:05:31] ERROR: Atomic operation failed after 3 attempts
+Error: Table 'u284410540_aethexiz.redeem_code_usage' doesn't exist
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at /home/runner/workspace/utils/atomicOperations.js:178:50
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AtomicOperations.executeTransaction (/home/runner/workspace/utils/atomicOperations.js:70:28)
+    at async AtomicOperations.executeWithLock (/home/runner/workspace/utils/atomicOperations.js:34:32)
+    at async RedeemCodeManager.redeemCode (/home/runner/workspace/utils/redeemCodeManager.js:134:28)
+    at async Object.execute (/home/runner/workspace/commands/redeem.js:50:34)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:135:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:29:13)
+[2025-07-16 19:05:31] ERROR: Error in redeem command: Table 'u284410540_aethexiz.redeem_code_usage' doesn't exist
+Error: Table 'u284410540_aethexiz.redeem_code_usage' doesn't exist
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at /home/runner/workspace/utils/atomicOperations.js:178:50
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AtomicOperations.executeTransaction (/home/runner/workspace/utils/atomicOperations.js:70:28)
+    at async AtomicOperations.executeWithLock (/home/runner/workspace/utils/atomicOperations.js:34:32)
+    at async RedeemCodeManager.redeemCode (/home/runner/workspace/utils/redeemCodeManager.js:134:28)
+    at async Object.execute (/home/runner/workspace/commands/redeem.js:50:34)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:135:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:29:13)
+[2025-07-16 19:35:42] ERROR: Atomic operation failed after 3 attempts
+Error: No gacha draws available
+    at /home/runner/workspace/utils/atomicOperations.js:283:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AtomicOperations.executeTransaction (/home/runner/workspace/utils/atomicOperations.js:70:28)
+    at async AtomicOperations.executeWithLock (/home/runner/workspace/utils/atomicOperations.js:34:32)
+    at async performGachaDraw (/home/runner/workspace/utils/database.js:1054:28)
+    at async handleGachaDraw (/home/runner/workspace/events/interactionCreate.js:1662:28)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:208:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:34:13)
+[2025-07-16 19:35:42] ERROR: Error handling gacha draw button: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at performGachaDraw (/home/runner/workspace/utils/database.js:1059:75)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleGachaDraw (/home/runner/workspace/events/interactionCreate.js:1662:28)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:208:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:34:13)
+[2025-07-16 20:20:43] ERROR: Error in merge confirmation: setCooldown is not a function
+TypeError: setCooldown is not a function
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:811:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:334:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:266:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:129:13)
+[2025-07-16 20:20:43] ERROR: Error handling button interaction: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:863:9)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:334:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:266:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:129:13)
+[2025-07-16 20:20:43] ERROR: Uncaught Exception: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:317:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:129:13)
+[2025-07-16 20:25:31] ERROR: unhandledRejection: Cannot read properties of null (reading 'gacha_draws')
+TypeError: Cannot read properties of null (reading 'gacha_draws')
+    at [eval]:7:46
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: Cannot read properties of null (reading 'gacha_draws')
+    at [eval]:7:46
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-07-16 20:34:01] ERROR: Error in give command: updateUserCoins is not a function
+TypeError: updateUserCoins is not a function
+    at Object.execute (/home/runner/workspace/commands/prefix/give.js:113:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-16 20:35:19] ERROR: Error in give command: Cannot read properties of undefined (reading 'success')
+TypeError: Cannot read properties of undefined (reading 'success')
+    at Object.execute (/home/runner/workspace/commands/prefix/give.js:120:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-16 20:42:06] ERROR: Failed to load event interactionCreate.js: Unexpected identifier 'admin_reply_modal_$'
+/home/runner/workspace/events/interactionCreate.js:1698
+            .setCustomId(`admin_reply_modal_${reportId}`)
+                          ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'admin_reply_modal_$'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 01:29:23] ERROR: Failed to load event interactionCreate.js: Unexpected identifier 'admin_reply_modal_$'
+/home/runner/workspace/events/interactionCreate.js:1698
+            .setCustomId(`admin_reply_modal_${reportId}`)
+                          ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'admin_reply_modal_$'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 01:38:43] ERROR: Failed to load event interactionCreate.js: Unexpected identifier 'admin_reply_modal_$'
+/home/runner/workspace/events/interactionCreate.js:1698
+            .setCustomId(`admin_reply_modal_${reportId}`)
+                          ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'admin_reply_modal_$'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 01:54:57] ERROR: Error in enhanced gacha draw: getUserByDiscordId is not defined
+ReferenceError: getUserByDiscordId is not defined
+    at handleEnhancedGachaDraw (/home/runner/workspace/events/interactionCreate.js:2437:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:307:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:129:13)
+[2025-07-17 01:59:00] ERROR: Error handling button interaction: handleGiveConfirmation is not defined
+ReferenceError: handleGiveConfirmation is not defined
+    at handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:315:13)
+    at Object.execute (/home/runner/workspace/events/interactionCreate.js:129:19)
+    at Client.<anonymous> (/home/runner/workspace/index.js:37:54)
+    at Client.emit (node:events:518:28)
+    at InteractionCreateAction.handle (/home/runner/workspace/node_modules/discord.js/src/client/actions/InteractionCreate.js:101:12)
+    at module.exports [as INTERACTION_CREATE] (/home/runner/workspace/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:351:31)
+    at WebSocketManager.<anonymous> (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:235:12)
+    at WebSocketManager.emit (/home/runner/workspace/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+    at WebSocketShard.<anonymous> (/home/runner/workspace/node_modules/@discordjs/ws/dist/index.js:1190:51)
+[2025-07-17 02:07:23] ERROR: Error in give confirmation: getUserByDiscordId is not defined
+ReferenceError: getUserByDiscordId is not defined
+    at handleGiveConfirmation (/home/runner/workspace/events/interactionCreate.js:2661:23)
+    at handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:321:19)
+    at Object.execute (/home/runner/workspace/events/interactionCreate.js:135:19)
+    at Client.<anonymous> (/home/runner/workspace/index.js:37:54)
+    at Client.emit (node:events:518:28)
+    at InteractionCreateAction.handle (/home/runner/workspace/node_modules/discord.js/src/client/actions/InteractionCreate.js:101:12)
+    at module.exports [as INTERACTION_CREATE] (/home/runner/workspace/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:351:31)
+    at WebSocketManager.<anonymous> (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:235:12)
+    at WebSocketManager.emit (/home/runner/workspace/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:287:31)
+[2025-07-17 02:08:03] ERROR: Error in give confirmation: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ButtonInteraction.update (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:361:22)
+    at async handleGiveConfirmation (/home/runner/workspace/events/interactionCreate.js:2693:9)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:321:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:135:13)
+[2025-07-17 02:08:04] ERROR: Error handling button interaction: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleGiveConfirmation (/home/runner/workspace/events/interactionCreate.js:2702:9)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:321:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:135:13)
+[2025-07-17 02:08:04] ERROR: Uncaught Exception: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:341:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:135:13)
+[2025-07-17 02:14:43] ERROR: Error in daily command: exp is not defined
+ReferenceError: exp is not defined
+    at Object.execute (/home/runner/workspace/commands/prefix/daily.js:55:91)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 05:41:37] ERROR: Failed to load event interactionCreate.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/events/interactionCreate.js:30
+    const newRank = await determineRankByCP(newCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load slash command otcharacter.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otcharacter.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load slash command otequip.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otequip.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load slash command otevolve.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otevolve.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load slash command otunequip.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otunequip.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load slash command register.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/register.js:3:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command arena.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command buy.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/gachaManager.js:3:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command eat.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/eat.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command fight.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/fight.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command gacha.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/gacha.js:3:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command give.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/give.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command inventory.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command recalculate.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/recalculate.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:37] ERROR: Failed to load prefix command store.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:41:42] ERROR: Error registering slash commands: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/utils/powers.js:945
+    const newRank = await configDb.determineRankByCP(finalCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otcharacter.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load event interactionCreate.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/events/interactionCreate.js:30
+    const newRank = await determineRankByCP(newCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load slash command otcharacter.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otcharacter.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load slash command otequip.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otequip.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load slash command otevolve.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otevolve.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load slash command otunequip.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otunequip.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load slash command register.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/register.js:3:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command arena.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command eat.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/eat.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command fight.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/fight.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command gacha.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/gacha.js:3:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command give.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/give.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command inventory.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command recalculate.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/recalculate.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:17] ERROR: Failed to load prefix command store.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:45:22] ERROR: Error registering slash commands: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otcharacter.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load event interactionCreate.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/events/interactionCreate.js:30
+    const newRank = await determineRankByCP(newCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load slash command otcharacter.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otcharacter.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load slash command otequip.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otequip.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load slash command otevolve.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otevolve.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load slash command otunequip.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otunequip.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load slash command register.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/register.js:3:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command arena.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command eat.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/eat.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command fight.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/fight.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command gacha.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/gacha.js:3:40)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command give.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/give.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command inventory.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command recalculate.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/prefix/recalculate.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:44] ERROR: Failed to load prefix command store.js: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/utils/persistentPagination.js:3:38)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:47:49] ERROR: Error registering slash commands: powerRarities is not defined
+ReferenceError: powerRarities is not defined
+    at Object.<anonymous> (/home/runner/workspace/utils/powers.js:978:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otcharacter.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:48:31] ERROR: Failed to load event interactionCreate.js: await is only valid in async functions and the top level bodies of modules
+/home/runner/workspace/events/interactionCreate.js:30
+    const newRank = await determineRankByCP(newCP);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:50:03] ERROR: Error creating gacha menu: Cannot read properties of null (reading 'toLocaleString')
+TypeError: Cannot read properties of null (reading 'toLocaleString')
+    at GachaManager.createGachaMenu (/home/runner/workspace/utils/gachaManager.js:196:55)
+    at showGachaMenu (/home/runner/workspace/commands/prefix/gacha.js:59:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/commands/prefix/gacha.js:33:21)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 05:50:03] ERROR: Error showing enhanced gacha menu: Cannot read properties of null (reading 'toLocaleString')
+TypeError: Cannot read properties of null (reading 'toLocaleString')
+    at GachaManager.createGachaMenu (/home/runner/workspace/utils/gachaManager.js:196:55)
+    at showGachaMenu (/home/runner/workspace/commands/prefix/gacha.js:59:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/commands/prefix/gacha.js:33:21)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 05:50:10] ERROR: Error handling gacha draw button: Cannot read properties of undefined (reading 'getConnection')
+TypeError: Cannot read properties of undefined (reading 'getConnection')
+    at handleGachaDraw (/home/runner/workspace/events/interactionCreate.js:1972:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:301:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 05:57:06] ERROR: Failed to load event interactionCreate.js: Identifier 'determineRankByCP' has already been declared
+/home/runner/workspace/events/interactionCreate.js:96
+async function determineRankByCP(cp) {
+^
+
+SyntaxError: Identifier 'determineRankByCP' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 05:57:29] ERROR: Error in deposit command: AtomicOperations is not a constructor
+TypeError: AtomicOperations is not a constructor
+    at Object.execute (/home/runner/workspace/commands/prefix/deposit.js:52:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 05:58:00] ERROR: Error in deposit command: AtomicOperations is not a constructor
+TypeError: AtomicOperations is not a constructor
+    at Object.execute (/home/runner/workspace/commands/prefix/deposit.js:52:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 05:58:12] ERROR: Error in deposit command: AtomicOperations is not a constructor
+TypeError: AtomicOperations is not a constructor
+    at Object.execute (/home/runner/workspace/commands/prefix/deposit.js:52:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 05:58:33] ERROR: Error in deposit command: AtomicOperations is not a constructor
+TypeError: AtomicOperations is not a constructor
+    at Object.execute (/home/runner/workspace/commands/prefix/deposit.js:52:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 05:59:24] ERROR: Error in deposit command: AtomicOperations is not a constructor
+TypeError: AtomicOperations is not a constructor
+    at Object.execute (/home/runner/workspace/commands/prefix/deposit.js:52:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 06:05:00] ERROR: unhandledRejection: Table 'u284410540_aethexiz.cooldowns' doesn't exist
+Error: Table 'u284410540_aethexiz.cooldowns' doesn't exist
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at clearCooldowns ([eval]:6:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Table 'u284410540_aethexiz.cooldowns' doesn't exist
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at clearCooldowns ([eval]:6:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-07-17 06:05:13] ERROR: unhandledRejection: Table 'u284410540_aethexiz.user_cooldowns' doesn't exist
+Error: Table 'u284410540_aethexiz.user_cooldowns' doesn't exist
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at clearCooldowns ([eval]:6:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Table 'u284410540_aethexiz.user_cooldowns' doesn't exist
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at clearCooldowns ([eval]:6:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-07-17 06:15:34] ERROR: Error handling merge sacrifice power select: Cannot read properties of undefined (reading 'toLocaleString')
+TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+    at handleMergeSacrificePowersSelect (/home/runner/workspace/events/interactionCreate.js:714:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:499:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:130:13)
+[2025-07-17 06:16:04] ERROR: Error fixing user power ranks: Unknown column 'user_power_id' in 'SELECT'
+Error: Unknown column 'user_power_id' in 'SELECT'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at fixUserPowerRanks (/home/runner/workspace/scripts/fixUserPowerRanks.js:17:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-07-17 06:18:55] ERROR: Error handling merge sacrifice power select: Cannot read properties of undefined (reading 'toLocaleString')
+TypeError: Cannot read properties of undefined (reading 'toLocaleString')
+    at handleMergeSacrificePowersSelect (/home/runner/workspace/events/interactionCreate.js:714:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:499:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:130:13)
+[2025-07-17 06:39:06] ERROR: Error handling store select menu: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async StringSelectMenuInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:1393:16)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:495:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:130:13)
+[2025-07-17 06:39:06] ERROR: Error handling select menu interaction: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async StringSelectMenuInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleStoreSelectMenu (/home/runner/workspace/events/interactionCreate.js:1401:9)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:495:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:130:13)
+[2025-07-17 06:39:06] ERROR: Uncaught Exception: Interaction has already been acknowledged.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async StringSelectMenuInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleSelectMenuInteraction (/home/runner/workspace/events/interactionCreate.js:515:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:130:13)
+[2025-07-17 07:30:35] ERROR: Error in enhanced gacha draw: Unable to convert "[object Promise]" to a number.
+TypeError [ColorConvert]: Unable to convert "[object Promise]" to a number.
+    at resolveColor (/home/runner/workspace/node_modules/discord.js/src/util/Util.js:299:11)
+    at EmbedBuilder.setColor (/home/runner/workspace/node_modules/discord.js/src/structures/EmbedBuilder.js:23:36)
+    at GachaManager.createDrawResultEmbed (/home/runner/workspace/utils/gachaManager.js:268:14)
+    at handleEnhancedGachaDraw (/home/runner/workspace/events/interactionCreate.js:2594:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:305:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:125:13)
+[2025-07-17 07:37:09] ERROR: Enhanced gacha purchase error: AtomicOperations is not a constructor
+TypeError: AtomicOperations is not a constructor
+    at GachaManager.purchaseGachaDraws (/home/runner/workspace/utils/gachaManager.js:131:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleBuyDraws (/home/runner/workspace/commands/prefix/buy.js:74:32)
+    at async Object.execute (/home/runner/workspace/commands/prefix/buy.js:29:21)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:90:13)
+[2025-07-17 07:40:58] ERROR: Enhanced gacha purchase error: AtomicOperations is not a constructor
+TypeError: AtomicOperations is not a constructor
+    at GachaManager.purchaseGachaDraws (/home/runner/workspace/utils/gachaManager.js:131:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleEnhancedGachaPurchaseModal (/home/runner/workspace/events/interactionCreate.js:2765:32)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:998:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:135:13)
+[2025-07-17 07:41:25] ERROR: Error in enhanced gacha history: Invalid Form Body
+data.embeds[0].description[BASE_TYPE_REQUIRED]: This field is required
+DiscordAPIError[50035]: Invalid Form Body
+data.embeds[0].description[BASE_TYPE_REQUIRED]: This field is required
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async handleEnhancedGachaHistory (/home/runner/workspace/events/interactionCreate.js:2649:9)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:309:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:125:13)
+[2025-07-17 07:43:12] ERROR: Error in enhanced gacha draw: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.deferReply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:100:46)
+    at handleGachaDraw (/home/runner/workspace/events/interactionCreate.js:1955:23)
+    at handleEnhancedGachaDraw (/home/runner/workspace/events/interactionCreate.js:2614:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:307:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:125:13)
+[2025-07-17 07:49:48] ERROR: Failed to load event interactionCreate.js: Missing } in template expression
+/home/runner/workspace/events/interactionCreate.js:845
+                    { name: '🔢 Formula', value: `${mainPower.combat_power} + 2×${```python
+
+SyntaxError: Missing } in template expression
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 07:51:04] ERROR: Failed to load event interactionCreate.js: Unexpected identifier '$'
+/home/runner/workspace/events/interactionCreate.js:1687
+                                { name: '👤 Reporter', value: `${reportInfo.reporter} (<@${reportInfo.reporterId}>)`, inline: true },
+                                                               ^
+
+SyntaxError: Unexpected identifier '$'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 08:28:12] ERROR: Failed to load event interactionCreate.js: Unexpected token 'catch'
+/home/runner/workspace/events/interactionCreate.js:2757
+    } catch (error) {
+      ^^^^^
+
+SyntaxError: Unexpected token 'catch'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/index.js:32:23)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+[2025-07-17 09:18:58] ERROR: Error during preventive maintenance: Unknown column 'up.user_power_id' in 'WHERE'
+Error: Unknown column 'up.user_power_id' in 'WHERE'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at PreventiveMaintenance.checkInvalidEquippedPowers (/home/runner/workspace/utils/preventiveMaintenence.js:131:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:36:37)
+    at async Timeout._onTimeout (/home/runner/workspace/index.js:112:17)
+[2025-07-17 09:18:58] ERROR: Failed to start preventive maintenance: Unknown column 'up.user_power_id' in 'WHERE'
+Error: Unknown column 'up.user_power_id' in 'WHERE'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at PreventiveMaintenance.checkInvalidEquippedPowers (/home/runner/workspace/utils/preventiveMaintenence.js:131:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:36:37)
+    at async Timeout._onTimeout (/home/runner/workspace/index.js:112:17)
+[2025-07-17 09:20:58] ERROR: Error during preventive maintenance: Unknown column 'p.combat_power' in 'SELECT'
+Error: Unknown column 'p.combat_power' in 'SELECT'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at PreventiveMaintenance.checkCorruptedPowerRanks (/home/runner/workspace/utils/preventiveMaintenence.js:216:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:56:36)
+    at async Timeout._onTimeout (/home/runner/workspace/index.js:119:17)
+[2025-07-17 09:20:58] ERROR: Failed to start maintenance systems: Unknown column 'p.combat_power' in 'SELECT'
+Error: Unknown column 'p.combat_power' in 'SELECT'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at PreventiveMaintenance.checkCorruptedPowerRanks (/home/runner/workspace/utils/preventiveMaintenence.js:216:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:56:36)
+    at async Timeout._onTimeout (/home/runner/workspace/index.js:119:17)
+[2025-07-17 09:26:17] ERROR: Error during preventive maintenance: Unknown column 'p.combat_power' in 'SELECT'
+Error: Unknown column 'p.combat_power' in 'SELECT'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at PreventiveMaintenance.checkCorruptedPowerRanks (/home/runner/workspace/utils/preventiveMaintenence.js:216:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:56:36)
+    at async Object.execute (/home/runner/workspace/commands/systemstatus.js:54:36)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:228:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:121:13)
+[2025-07-17 09:26:17] ERROR: Maintenance check failed: Unknown column 'p.combat_power' in 'SELECT'
+Error: Unknown column 'p.combat_power' in 'SELECT'
+    at PromisePoolConnection.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/connection.js:47:22)
+    at PreventiveMaintenance.checkCorruptedPowerRanks (/home/runner/workspace/utils/preventiveMaintenence.js:216:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:56:36)
+    at async Object.execute (/home/runner/workspace/commands/systemstatus.js:54:36)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:228:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:121:13)
+[2025-07-17 09:28:23] ERROR: Error during preventive maintenance: this.checkDatabaseHealth is not a function
+TypeError: this.checkDatabaseHealth is not a function
+    at PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:26:41)
+    at Timeout._onTimeout (/home/runner/workspace/index.js:119:45)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-07-17 09:28:50] ERROR: Error during preventive maintenance: this.checkDatabaseHealth is not a function
+TypeError: this.checkDatabaseHealth is not a function
+    at PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:26:41)
+    at Object.execute (/home/runner/workspace/commands/systemstatus.js:54:64)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/runner/workspace/events/interactionCreate.js:231:25
+    at async ErrorRecovery.executeWithRecovery (/home/runner/workspace/utils/errorRecovery.js:31:32)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:229:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:122:13)
+[2025-07-17 09:29:14] ERROR: Error during preventive maintenance: this.checkDatabaseHealth is not a function
+TypeError: this.checkDatabaseHealth is not a function
+    at PreventiveMaintenance.runMaintenanceCheck (/home/runner/workspace/utils/preventiveMaintenence.js:26:41)
+    at Timeout._onTimeout (/home/runner/workspace/index.js:119:45)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-07-17 09:30:43] ERROR: Error in enhanced gacha purchase modal: Cannot read properties of null (reading 'toLocaleString')
+TypeError: Cannot read properties of null (reading 'toLocaleString')
+    at GachaManager.createPurchaseEmbed (/home/runner/workspace/utils/gachaManager.js:634:116)
+    at handleEnhancedGachaPurchaseModal (/home/runner/workspace/events/interactionCreate.js:2951:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:1018:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:137:13)
+[2025-07-17 09:30:58] ERROR: Error in enhanced gacha purchase modal: Cannot read properties of null (reading 'toLocaleString')
+TypeError: Cannot read properties of null (reading 'toLocaleString')
+    at GachaManager.createPurchaseEmbed (/home/runner/workspace/utils/gachaManager.js:634:116)
+    at handleEnhancedGachaPurchaseModal (/home/runner/workspace/events/interactionCreate.js:2951:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:1018:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:137:13)
+[2025-07-17 11:01:50] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:02:01] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:02:13] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:02:21] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:03:23] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:03:26] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:03:29] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:25:44] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:26:06] ERROR: Error handling button interaction: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:169:46)
+    at handleMergeConfirmation (/home/runner/workspace/events/interactionCreate.js:799:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleConfirmationButton (/home/runner/workspace/events/interactionCreate.js:372:13)
+    at async handleButtonInteraction (/home/runner/workspace/events/interactionCreate.js:282:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:127:13)
+[2025-07-17 11:30:14] ERROR: Failed to load slash command otbuydraws.js: Cannot find module '../../utils/database'
+Require stack:
+- /home/runner/workspace/commands/otbuydraws.js
+- /home/runner/workspace/index.js
+Error: Cannot find module '../../utils/database'
+Require stack:
+- /home/runner/workspace/commands/otbuydraws.js
+- /home/runner/workspace/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otbuydraws.js:2:32)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+[2025-07-17 11:30:20] ERROR: Error registering slash commands: Cannot find module '../../utils/database'
+Require stack:
+- /home/runner/workspace/commands/otbuydraws.js
+- /home/runner/workspace/events/ready.js
+- /home/runner/workspace/index.js
+Error: Cannot find module '../../utils/database'
+Require stack:
+- /home/runner/workspace/commands/otbuydraws.js
+- /home/runner/workspace/events/ready.js
+- /home/runner/workspace/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/runner/workspace/commands/otbuydraws.js:2:32)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+[2025-07-17 11:31:43] ERROR: Error in otbuydraws command: The reply to this interaction has already been sent or deferred.
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ChatInputCommandInteraction.showModal (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:405:46)
+    at Object.execute (/home/runner/workspace/commands/otbuydraws.js:50:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/runner/workspace/events/interactionCreate.js:231:25
+    at async ErrorRecovery.executeWithRecovery (/home/runner/workspace/utils/errorRecovery.js:31:32)
+    at async handleSlashCommand (/home/runner/workspace/events/interactionCreate.js:229:9)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:122:13)
+[2025-07-17 11:35:15] ERROR: Error in buy draws modal: atomicOperations.purchaseGachaDraws is not a function
+TypeError: atomicOperations.purchaseGachaDraws is not a function
+    at handleBuyDrawsModal (/home/runner/workspace/events/interactionCreate.js:3224:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleModalSubmission (/home/runner/workspace/events/interactionCreate.js:1020:13)
+    at async Object.execute (/home/runner/workspace/events/interactionCreate.js:137:13)
