@@ -22,6 +22,17 @@ class ErrorHandler {
         const errorId = this.generateErrorId();
         const userId = interaction.user?.id || 'unknown';
         
+        // Track specific error types for debugging
+        if (error.message.includes('coin') || error.message.includes('balance')) {
+            logger.error(`COIN/BALANCE ERROR in ${context}`, {
+                errorId,
+                userId,
+                error: error.message,
+                stack: error.stack,
+                timestamp: new Date().toISOString()
+            });
+        }
+        
         // Log error with full context
         logger.error(`Command error in ${context}`, {
             errorId,
@@ -226,8 +237,19 @@ class ErrorHandler {
             'CooldownError': '⏰ You\'re on cooldown. Please wait before trying again.',
             'RateLimitError': '⏰ Rate limit exceeded. Please slow down and try again.',
             'NotFoundError': '❌ The requested resource was not found.',
-            'ConfigurationError': '❌ Bot configuration error. Please contact an administrator.'
+            'ConfigurationError': '❌ Bot configuration error. Please contact an administrator.',
+            'InsufficientFundsError': '❌ Insufficient funds for this transaction.',
+            'TransactionError': '❌ Transaction failed. Your balance has been protected.'
         };
+        
+        // Handle specific coin/balance errors
+        if (error.message.includes('Insufficient coins') || error.message.includes('Insufficient funds')) {
+            return `❌ ${error.message}\n\n*Error ID: \`${errorId}\`*`;
+        }
+        
+        if (error.message.includes('negative balance') || error.message.includes('balance protection')) {
+            return `❌ Transaction blocked to protect your account balance.\n\n*Error ID: \`${errorId}\`*\n*Your coins are safe!*`;
+        }
 
         const userMessage = errorMessages[error.name] || 
                            '❌ An unexpected error occurred. Please try again later.';

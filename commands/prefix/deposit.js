@@ -1,5 +1,5 @@
 const { EmbedBuilder } = require('discord.js');
-const { getUserByDiscordId, updateUserCoins, updateUserBank } = require('../../utils/database');
+const { getUserByDiscordId, depositCoins } = require('../../utils/database');
 const logger = require('../../utils/logger');
 
 module.exports = {
@@ -47,36 +47,17 @@ module.exports = {
                 return message.reply('❌ You have no coins to deposit!');
             }
 
-            // Perform the deposit transaction atomically
-            const atomicOperations = require('../../utils/atomicOperations');
-            
-            const result = await atomicOperations.executeWithLock(async (connection) => {
-                // Update coins and bank in single transaction
-                await connection.execute(
-                    'UPDATE users SET coins = coins - ?, bank_balance = bank_balance + ? WHERE id = ?',
-                    [amount, amount, user.id]
-                );
-                
-                // Get updated balances
-                const [updatedUser] = await connection.execute(
-                    'SELECT coins, bank_balance FROM users WHERE id = ?',
-                    [user.id]
-                );
-                
-                return updatedUser[0];
-            }, `deposit_${user.id}`);
-
-            const newWalletBalance = result.coins;
-            const newBankBalance = result.bank_balance;
+            // FIXED: Use atomic deposit function
+            const result = await depositCoins(user.id, amount);
 
             const embed = new EmbedBuilder()
                 .setColor('#00ff00')
                 .setTitle('🏦 Deposit Successful!')
                 .setDescription(`**${user.username}** deposited coins into the bank`)
                 .addFields(
-                    { name: '💰 Deposited Amount', value: `${amount.toLocaleString()} coins`, inline: true },
-                    { name: '💵 New Wallet Balance', value: `${newWalletBalance.toLocaleString()} coins`, inline: true },
-                    { name: '🏦 New Bank Balance', value: `${newBankBalance.toLocaleString()} coins`, inline: true }
+                    { name: '💰 Deposited Amount', value: `${result.depositedAmount.toLocaleString()} coins`, inline: true },
+                    { name: '💵 New Wallet Balance', value: `${result.newWalletBalance.toLocaleString()} coins`, inline: true },
+                    { name: '🏦 New Bank Balance', value: `${result.newBankBalance.toLocaleString()} coins`, inline: true }
                 )
                 .addFields({
                     name: '🔒 Security Benefit',
@@ -88,11 +69,11 @@ module.exports = {
 
             message.reply({ embeds: [embed] });
 
-            logger.info(`${user.username} deposited ${amount} coins to bank`);
+            logger.info(`${user.username} deposited ${result.depositedAmount} coins to bank`);
 
         } catch (error) {
             logger.error('Error in deposit command:', error);
-            message.reply('❌ An error occurred during the deposit. Please try again later.');
+            message.reply(`❌ ${error.message}`);
         }
     }
 };

@@ -55,13 +55,11 @@ module.exports = {
 
             // 50% win chance
             const won = Math.random() < 0.5;
-            const winnings = won ? amount : 0; // If won, gain the bet amount (2x total)
-            const netChange = won ? amount : -amount;
+            const netChange = won ? amount : -amount; // FIXED: Simple net change calculation
 
-            // Update user coins
-            await updateUserCoins(user.id, netChange);
-
-            const newBalance = user.coins + netChange;
+            // FIXED: Get fresh user data and update coins atomically
+            const freshUser = await getUserByDiscordId(message.author.id);
+            const newBalance = await updateUserCoins(freshUser.id, netChange);
 
             const embed = new EmbedBuilder()
                 .setColor(won ? '#00ff00' : '#ff0000')
@@ -75,7 +73,7 @@ module.exports = {
 
             message.reply({ embeds: [embed] });
 
-            logger.info(`${user.username} bet ${amount} coins - ${won ? 'WON' : 'LOST'} - New balance: ${newBalance}`);
+            logger.info(`${freshUser.username} bet ${amount} coins - ${won ? 'WON' : 'LOST'} - New balance: ${newBalance}`);
 
         } catch (error) {
             logger.error('Error in bet command:', error);

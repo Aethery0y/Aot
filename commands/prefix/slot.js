@@ -94,9 +94,9 @@ async function playSimpleSlots(message, user, amount, symbols) {
     const finalReels = [getRandomSymbol(symbols), getRandomSymbol(symbols), getRandomSymbol(symbols)];
     const result = calculateSlotResult(finalReels, amount);
 
-    // Update user coins
-    await updateUserCoins(user.id, result.netChange);
-    const newBalance = user.coins + result.netChange;
+    // FIXED: Get fresh user data and update coins atomically
+    const freshUser = await getUserByDiscordId(message.author.id);
+    const newBalance = await updateUserCoins(freshUser.id, result.netChange);
 
     // Display result
     const resultEmbed = new EmbedBuilder()
@@ -125,9 +125,9 @@ async function playSimpleSlots(message, user, amount, symbols) {
 
     // Set cooldown after slot play
     const { setCooldownAfterSuccess } = require('../../utils/database');
-    await setCooldownAfterSuccess(user.discord_id, 'slot', 8);
+    await setCooldownAfterSuccess(message.author.id, 'slot', 8);
 
-    logger.info(`${user.username} played slots ${amount} coins - ${result.won ? `WON ${result.winnings}` : 'LOST'} - New balance: ${newBalance}`);
+    logger.info(`${freshUser.username} played slots ${amount} coins - ${result.won ? `WON ${result.winnings}` : 'LOST'} - New balance: ${newBalance}`);
 }
 
 function getRandomSymbol(symbols) {
@@ -150,13 +150,13 @@ function calculateSlotResult(reels, betAmount) {
     // Three of a kind (winning combinations)
     if (first.name === second.name && second.name === third.name) {
         const multiplier = first.multiplier;
-        const winnings = Math.floor(betAmount * multiplier);
+        const winnings = Math.floor(betAmount * (multiplier - 1)); // FIXED: Subtract bet amount from winnings
         return {
             won: true,
             winType: `Three ${first.name}s!`,
             multiplier,
             winnings,
-            netChange: winnings - betAmount
+            netChange: winnings // Net change is just the winnings since we already subtracted bet
         };
     }
 
@@ -167,14 +167,14 @@ function calculateSlotResult(reels, betAmount) {
 
     if (matches.length > 0) {
         const matchedSymbol = matches[0];
-        const multiplier = Math.floor(matchedSymbol.multiplier / 2); // Half multiplier for two of a kind
-        const winnings = Math.floor(betAmount * multiplier);
+        const multiplier = Math.max(1, Math.floor(matchedSymbol.multiplier / 2)); // FIXED: Ensure minimum multiplier of 1
+        const winnings = Math.floor(betAmount * (multiplier - 1)); // FIXED: Subtract bet amount
         return {
-            won: winnings > betAmount,
+            won: winnings > 0,
             winType: `Two ${matchedSymbol.name}s!`,
             multiplier,
             winnings,
-            netChange: winnings - betAmount
+            netChange: winnings
         };
     }
 

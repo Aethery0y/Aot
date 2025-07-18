@@ -56,13 +56,11 @@ module.exports = {
             // 10% win chance for 10x payout
             const won = Math.random() < 0.1;
             const multiplier = 10;
-            const winnings = won ? amount * multiplier : 0;
-            const netChange = won ? winnings - amount : -amount;
+            const netChange = won ? amount * (multiplier - 1) : -amount; // FIXED: Proper net calculation
 
-            // Update user coins
-            await updateUserCoins(user.id, netChange);
-
-            const newBalance = user.coins + netChange;
+            // FIXED: Get fresh user data and update coins atomically
+            const freshUser = await getUserByDiscordId(message.author.id);
+            const newBalance = await updateUserCoins(freshUser.id, netChange);
 
             const embed = new EmbedBuilder()
                 .setColor(won ? '#gold' : '#ff0000')
@@ -70,13 +68,13 @@ module.exports = {
                 .setDescription(`**${amount.toLocaleString()}** coins • ${won ? `${multiplier}x multiplier` : '10% chance'}`)
                 .addFields(
                     { name: '💰 Balance', value: `${newBalance.toLocaleString()} coins`, inline: true },
-                    { name: '📈 Change', value: `${won ? '+' : '-'}${won ? winnings.toLocaleString() : amount.toLocaleString()}`, inline: true }
+                    { name: '📈 Change', value: `${won ? '+' : '-'}${Math.abs(netChange).toLocaleString()}`, inline: true }
                 )
                 .setTimestamp();
 
             message.reply({ embeds: [embed] });
 
-            logger.info(`${user.username} high risk bet ${amount} coins - ${won ? `JACKPOT ${winnings}` : 'LOST'} - New balance: ${newBalance}`);
+            logger.info(`${freshUser.username} high risk bet ${amount} coins - ${won ? `JACKPOT ${Math.abs(netChange)}` : 'LOST'} - New balance: ${newBalance}`);
 
         } catch (error) {
             logger.error('Error in hr command:', error);

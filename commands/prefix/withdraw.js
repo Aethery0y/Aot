@@ -1,5 +1,5 @@
 const { EmbedBuilder } = require('discord.js');
-const { getUserByDiscordId, updateUserCoins, updateUserBank } = require('../../utils/database');
+const { getUserByDiscordId, withdrawCoins } = require('../../utils/database');
 const logger = require('../../utils/logger');
 
 module.exports = {
@@ -47,36 +47,17 @@ module.exports = {
                 return message.reply('❌ You have no coins in your bank account!');
             }
 
-            // Perform the withdrawal transaction atomically
-            const atomicOperations = require('../../utils/atomicOperations');
-            
-            const result = await atomicOperations.executeWithLock(async (connection) => {
-                // Update coins and bank in single transaction
-                await connection.execute(
-                    'UPDATE users SET coins = coins + ?, bank_balance = bank_balance - ? WHERE id = ?',
-                    [amount, amount, user.id]
-                );
-                
-                // Get updated balances
-                const [updatedUser] = await connection.execute(
-                    'SELECT coins, bank_balance FROM users WHERE id = ?',
-                    [user.id]
-                );
-                
-                return updatedUser[0];
-            }, `withdraw_${user.id}`);
-
-            const newWalletBalance = result.coins;
-            const newBankBalance = result.bank_balance;
+            // FIXED: Use atomic withdrawal function
+            const result = await withdrawCoins(user.id, amount);
 
             const embed = new EmbedBuilder()
                 .setColor('#00ff00')
                 .setTitle('🏦 Withdrawal Successful!')
                 .setDescription(`**${user.username}** withdrew coins from the bank`)
                 .addFields(
-                    { name: '💰 Withdrawn Amount', value: `${amount.toLocaleString()} coins`, inline: true },
-                    { name: '💵 New Wallet Balance', value: `${newWalletBalance.toLocaleString()} coins`, inline: true },
-                    { name: '🏦 New Bank Balance', value: `${newBankBalance.toLocaleString()} coins`, inline: true }
+                    { name: '💰 Withdrawn Amount', value: `${result.withdrawnAmount.toLocaleString()} coins`, inline: true },
+                    { name: '💵 New Wallet Balance', value: `${result.newWalletBalance.toLocaleString()} coins`, inline: true },
+                    { name: '🏦 New Bank Balance', value: `${result.newBankBalance.toLocaleString()} coins`, inline: true }
                 )
                 .addFields({
                     name: '⚠️ Security Warning',
@@ -88,11 +69,11 @@ module.exports = {
 
             message.reply({ embeds: [embed] });
 
-            logger.info(`${user.username} withdrew ${amount} coins from bank`);
+            logger.info(`${user.username} withdrew ${result.withdrawnAmount} coins from bank`);
 
         } catch (error) {
             logger.error('Error in withdraw command:', error);
-            message.reply('❌ An error occurred during the withdrawal. Please try again later.');
+            message.reply(`❌ ${error.message}`);
         }
     }
 };

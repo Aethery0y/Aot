@@ -66,7 +66,9 @@ class BugMonitor {
                 failures: 0,
                 consecutive: 0,
                 lastFailure: null,
-                recentExecutions: []
+                recentExecutions: [],
+                coinIssues: 0,
+                balanceErrors: 0
             });
         }
 
@@ -92,6 +94,14 @@ class BugMonitor {
             stats.failures++;
             stats.consecutive++;
             stats.lastFailure = now;
+            
+            // Track specific error types
+            if (error?.message?.includes('coin') || error?.message?.includes('balance')) {
+                stats.coinIssues++;
+            }
+            if (error?.message?.includes('Insufficient') || error?.message?.includes('negative')) {
+                stats.balanceErrors++;
+            }
 
             // Check for critical failure patterns
             this.checkCriticalFailures(commandName, stats);

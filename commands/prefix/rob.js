@@ -89,9 +89,14 @@ module.exports = {
                 stolenAmount = Math.floor(targetUser.coins * stealPercentage);
                 stolenAmount = Math.min(stolenAmount, targetUser.coins); // Can't steal more than they have
 
-                // Transfer coins
-                await updateUserCoins(robber.id, stolenAmount);
-                await updateUserCoins(targetUser.id, -stolenAmount);
+                // FIXED: Transfer coins atomically to prevent duplication
+                try {
+                    await updateUserCoins(targetUser.id, -stolenAmount);
+                    await updateUserCoins(robber.id, stolenAmount);
+                } catch (error) {
+                    logger.error('Error during robbery coin transfer:', error);
+                    return message.reply('❌ Robbery failed due to a technical issue. Please try again.');
+                }
             } else {
                 // Failed robbery - robber pays penalty
                 penalty = Math.floor(robber.coins * 0.1); // 10% penalty
@@ -99,7 +104,12 @@ module.exports = {
                 penalty = Math.max(penalty, 50); // Minimum 50 coins penalty
 
                 if (penalty > 0) {
-                    await updateUserCoins(robber.id, -penalty);
+                    try {
+                        await updateUserCoins(robber.id, -penalty);
+                    } catch (error) {
+                        logger.error('Error applying robbery penalty:', error);
+                        return message.reply('❌ Robbery failed due to a technical issue. Please try again.');
+                    }
                 }
             }
 

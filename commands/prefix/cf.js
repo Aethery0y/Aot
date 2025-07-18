@@ -58,13 +58,11 @@ module.exports = {
             const result = Math.random() < 0.5 ? 'heads' : 'tails';
             const won = userChoice === result;
 
-            const winnings = won ? amount : 0;
             const netChange = won ? amount : -amount;
 
-            // Update user coins
-            await updateUserCoins(user.id, netChange);
-
-            const newBalance = user.coins + netChange;
+            // FIXED: Get fresh user data and update coins atomically
+            const freshUser = await getUserByDiscordId(message.author.id);
+            const newBalance = await updateUserCoins(freshUser.id, netChange);
 
             const embed = new EmbedBuilder()
                 .setColor(won ? '#00ff00' : '#ff0000')
@@ -78,7 +76,7 @@ module.exports = {
 
             message.reply({ embeds: [embed] });
 
-            logger.info(`${user.username} coin flipped ${amount} coins - ${userChoice} vs ${result} - ${won ? 'WON' : 'LOST'}`);
+            logger.info(`${freshUser.username} coin flipped ${amount} coins - ${userChoice} vs ${result} - ${won ? 'WON' : 'LOST'}`);
 
         } catch (error) {
             logger.error('Error in coinflip command:', error);

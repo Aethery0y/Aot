@@ -112,8 +112,14 @@ async function handleBuyDraws(message, user, amount) {
         }
 
         // Process purchase with original method
-        await updateUserCoins(user.id, -totalCost);
-        await updateUserGachaDraws(user.id, amount);
+        // FIXED: Atomic purchase to prevent coin loss without getting draws
+        try {
+            await updateUserCoins(user.id, -totalCost);
+            await updateUserGachaDraws(user.id, amount);
+        } catch (error) {
+            logger.error('Error during gacha draw purchase:', error);
+            return message.reply('❌ Purchase failed. Please try again.');
+        }
         
         const updatedUser = await getUserByDiscordId(message.author.id);
         
